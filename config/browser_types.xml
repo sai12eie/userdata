@@ -1,0 +1,129 @@
+<browserTypes>
+	<browserType> 
+		<name>firefox</name> 
+		<displayName>Firefox</displayName>
+		<icon>firefox.png</icon>
+		<path>$ProgramFiles\Mozilla Firefox\firefox.exe</path>  
+		<options>-profile "$userDir/browser/ff/profiles/sahi$threadNo" -private-window -purgecaches -no-remote  --remote-allow-origins=*</options>  
+		<processName>firefox.exe</processName> 
+		<capacity>5</capacity>  
+	</browserType>
+
+	<browserType> 
+		<name>ie</name>  
+		<displayName>IE</displayName>
+		<icon>ie.png</icon>
+		<path>$ProgramFiles\Internet Explorer\iexplore.exe</path>  
+		<options>-noframemerging -private</options>  
+		<processName>iexplore.exe</processName>
+		<useSystemProxy>true</useSystemProxy> 
+		<capacity>5</capacity>  
+	</browserType>
+	
+	<!-- 
+	<browserType> 
+        <name>edge</name>  
+        <displayName>MS Edge</displayName>
+        <icon>edge.png</icon>
+        <path>$userDir\bin\launch_edge.bat</path>  
+        <options></options> 
+       	<processName>MicrosoftEdge.exe</processName>
+       	<useSystemProxy>true</useSystemProxy> 
+       	<capacity>1</capacity>
+       	<force>true</force>
+    </browserType>
+    -->	
+    
+	<!-- 
+	<browserType> 
+		<name>ie</name>  
+		<displayName>IE 7</displayName>
+		<icon>ie.png</icon>
+		<path>$ProgramFiles (x86)\Internet Explorer\iexplore.exe</path>  
+		<options></options>  
+		<processName>iexplore.exe</processName>
+		<useSystemProxy>true</useSystemProxy> 
+		<capacity>5</capacity>  
+	</browserType>	
+	 -->	
+	 
+	<!-- 
+	<browserType> 
+		<name>ie</name>  
+		<displayName>IE 6</displayName>
+		<icon>ie.png</icon>
+		<path>$ProgramFiles (x86)\Internet Explorer\iexplore.exe</path>  
+		<options></options>  
+		<processName>iexplore.exe</processName>
+		<useSystemProxy>true</useSystemProxy> 
+		<capacity>5</capacity>  
+	</browserType>	
+	 -->
+	
+	<browserType> 
+		<name>chrome1</name>  
+		<displayName>Chrome1</displayName>
+		<icon>chrome.png</icon>
+		<path>$ProgramFiles\Google\Chrome\Application\chrome.exe</path>  
+		<options>--no-default-browser-check --user-data-dir=$userDir\browser\chrome\profiles\sahi$threadNo --proxy-server=127.0.0.1:$port --disable-popup-blocking --always-authorize-plugins --incognito --allow-outdated-plugins --enable-npapi --disable-background-networking --disable-component-update --disable-renderer-backgrounding --disable-backgrounding-occluded-windows --disable-features=OptimizationGuideModelDownloading,OptimizationHintsFetching,OptimizationTargetPrediction,OptimizationHints</options>  
+		<processName>chrome.exe</processName> 
+		<capacity>5</capacity>  
+	</browserType>	
+	 
+	<browserType> 
+		<name>safari</name>  
+		<displayName>Safari</displayName>
+		<icon>safari.png</icon>
+		<path>$ProgramFiles\Safari\Safari.exe</path>  
+		<options> </options>  
+		<processName>safari.exe</processName> 
+		<useSystemProxy>true</useSystemProxy> 
+		<capacity>1</capacity>  
+	</browserType>
+	
+	<browserType> 
+		<name>opera</name>  
+		<displayName>Opera</displayName>
+		<icon>opera.png</icon>
+		<path>$ProgramFiles\Opera\launcher.exe</path>  
+		<options> </options>  
+		<processName>opera.exe</processName> 
+		<useSystemProxy>true</useSystemProxy> 
+		<capacity>1</capacity>  
+	</browserType>
+	
+	<browserType>
+		<name>edgenew</name>
+		<displayName>Edge New</displayName>
+		<icon>msedge.png</icon>
+		<path>$ProgramFiles (x86)\Microsoft\Edge\Application\msedge.exe</path>
+		<options>--no-default-browser-check --user-data-dir=$userDir\browser\edge\profiles\sahi$threadNo --disable-popup-blocking --proxy-server=127.0.0.1:$port -inprivate --disable-background-networking --disable-component-update --disable-renderer-backgrounding --disable-backgrounding-occluded-windows</options>
+		<processName>msedge.exe</processName>
+		<useSystemProxy>false</useSystemProxy>
+		<capacity>5</capacity>
+	</browserType>
+
+	<browserType>
+		<name>brave</name>
+		<displayName>Brave</displayName>
+		<icon>brave.png</icon>
+		<path>$ProgramFiles\BraveSoftware\Brave-Browser\Application\brave.exe</path>
+		<options>--no-default-browser-check --user-data-dir=$userDir\browser\brave\profiles\sahi$threadNo --proxy-server=127.0.0.1:$port --disable-popup-blocking --allow-outdated-plugins --incognito --disable-background-networking --disable-component-update --disable-renderer-backgrounding --disable-backgrounding-occluded-windows</options>
+		<processName>brave.exe</processName>
+		<useSystemProxy>false</useSystemProxy>
+		<capacity>5</capacity>
+	</browserType>
+	
+	<!-- 
+    <browserType>
+        <name>phantomjs</name>
+        <displayName>PhantomJS</displayName>
+        <icon>phantomjs.png</icon>
+        <path>$sahiDir\ext\phantomjs\sahi_phantomjs.bat</path>
+        <options>&#45;&#45;proxy=127.0.0.1:$port $userDir\..\ext\phantomjs\phantomsahi.js</options>
+        <processName>phantomjs.exe</processName>
+        <capacity>100</capacity>
+        <force>false</force>
+    </browserType>
+    -->	
+</browserTypes>

@@ -1,0 +1,141 @@
+{
+  "name": "Registration",
+  "id": "-1",
+  "type": 0,
+  "content": {
+    "nodesMap": {
+      "fcn_start_0": {
+        "id": "fcn_start_0",
+        "content": "Start",
+        "nodeType": "start",
+        "branches": [
+          "fcn_userregistration_0"
+        ]
+      },
+      "fcn_userregistration_0": {
+        "id": "fcn_userregistration_0",
+        "content": "Registration",
+        "nodeType": "pathlabel",
+        "branches": [
+          "fcn_gotoregistrationpage_0"
+        ]
+      },
+      "fcn_gotoregistrationpage_0": {
+        "id": "fcn_gotoregistrationpage_0",
+        "content": "Go To Registration Page",
+        "nodeType": "action",
+        "branches": [
+          "fcn_registernewuser_0"
+        ]
+      },
+      "fcn_registernewuser_0": {
+        "id": "fcn_registernewuser_0",
+        "content": "Enter $user details",
+        "nodeType": "action",
+        "branches": [
+          "fcn_logout_0"
+        ]
+      },
+      "fcn_logout_0": {
+        "id": "fcn_logout_0",
+        "content": "Logout",
+        "nodeType": "action",
+        "branches": []
+      }
+    },
+    "positions": {
+      "fcn_start_0": {
+        "top": 150.0,
+        "left": 500.0
+      },
+      "fcn_userregistration_0": {
+        "top": 211.0,
+        "left": 500.0
+      },
+      "fcn_gotoregistrationpage_0": {
+        "top": 270.0,
+        "left": 500.0
+      },
+      "fcn_registernewuser_0": {
+        "top": 329.0,
+        "left": 502.0
+      },
+      "fcn_logout_0": {
+        "top": 458.29168701171875,
+        "left": 501.0
+      }
+    },
+    "settings": {
+      "maxProceedDepth": 100,
+      "maxProceedsForFirstDepth": 1,
+      "maxProceedsPerDepth": 1,
+      "maxPathRepititionsPerComboPath": 1,
+      "maxProceedsPerPath": 10000,
+      "maxToggles": 2,
+      "maxMatchingPaths": 3
+    },
+    "isPrimary": true,
+    "pathNames": [
+      {
+        "pathKey": [
+          "fcn_userregistration_0",
+          "fcn_gotoregistrationpage_0",
+          "fcn_registernewuser_0",
+          "fcn_logout_0"
+        ],
+        "pathName": "Registration",
+        "dependsPathUID": "1713764926800",
+        "dataSet": {
+          "dataSetName": "user_details.csv",
+          "dataSetGroupName": "group_1"
+        },
+        "pathTags": "Test",
+        "isValidationsEnabled": true
+      },
+      {
+        "pathKey": [
+          "fcn_userregistration_0"
+        ],
+        "dependsPathUID": "17473764594141",
+        "isValidationsEnabled": false
+      },
+      {
+        "pathKey": [
+          "fcn_userregistration_0"
+        ],
+        "dependsPathUID": "17473764958292",
+        "isValidationsEnabled": false
+      },
+      {
+        "pathKey": [
+          "fcn_userregistration_0"
+        ],
+        "dependsPathUID": "17473764980013",
+        "isValidationsEnabled": false
+      },
+      {
+        "pathKey": [
+          "fcn_userregistration_0"
+        ],
+        "dependsPathUID": "17473765003324",
+        "isValidationsEnabled": false
+      },
+      {
+        "pathKey": [
+          "fcn_userregistration_0"
+        ],
+        "dependsPathUID": "17473765023425",
+        "isValidationsEnabled": false
+      }
+    ],
+    "flowChartUID": "fcUID_1713432997066",
+    "pathExecutionOrder": [
+      "1713764926800",
+      "1713764926838",
+      "1713764926877",
+      "17153234547943"
+    ]
+  },
+  "enabled": true,
+  "parentId": ""
+}

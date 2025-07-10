@@ -1,0 +1,8 @@
+.*android[.]clients[.]google[.]com.*
+.*data-cdn[.]mbamupdates[.]com.*
+.*tsfe[.]trafficshaping[.]dsp[.]mp[.]microsoft[.]com.*
+.*au[.]download[.]windowsupdate[.]com.*
+.*array701[.]prod[.]do[.]dsp[.]mp[.]microsoft.com.*
+.*instantmessaging[-]pa[.]googleapis[.]com.*
+.*optimizationguide[-]pa[.]googleapis[.]com.*
+#.*infocamere.*

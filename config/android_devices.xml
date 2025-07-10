@@ -1,0 +1,27 @@
+<androidDevices>
+	<!-- you can get the deviceId by executing following command
+		"adb devices"
+	-->
+	 
+	<!-- Moto device with 2 capacity -->
+	<!-- <androidDevice> 
+		<name>Moto</name> 
+		<displayName>Moto G5</displayName>
+		<deviceId>XXXX</deviceId>
+		<deviceId>YYYY</deviceId>
+	</androidDevice> -->
+	
+	<!-- Google pixel device with 5 capacity. -->
+	<!-- <androidDevice> 
+		<name>AWS-Pixel</name> 
+		<displayName>Google Pixel</displayName>
+		<deviceId aws="true" capacity="5">arn:aws:devicefarm:us-west-2:332167198415:devicepool:ff561b61-79a9-4f40-94c0-9ba200d26d55/efdbbd96-9319-49c0-a17f-faf3afb6eecb</deviceId>
+	</androidDevice> -->
+	
+	<!-- Mix devices (capacity = specified devices) -->
+	<!-- <androidDevice> 
+		<name>Miscellaneous</name>
+		<deviceId aws="true" displayName="Samsung Galaxy">arn:aws:devicefarm:us-west-2:332163218415:devicepool:ff561b61-79a9-4f40-94c0-9ba564d26d55/1e007efd-c987-469d-ae84-63b04532a720</deviceId>
+		<deviceId aws="true" displayName="Google Pixel">arn:aws:devicefarm:us-west-2:332163218415:devicepool:ff561b61-79a9-4f40-94c0-9ba564d26d55/1e007efd-c987-469d-ae84-63b04532a721</deviceId>
+	</androidDevice> -->
+</androidDevices>

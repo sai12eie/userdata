@@ -1,0 +1,20 @@
+{
+  "name": "Confirm Registration in the new the $user",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Confirm Registration in the new the $user",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "user_",
+        "entityTypeId": "user",
+        "suffix": ""
+      }
+    ],
+    "steps": []
+  },
+  "enabled": false,
+  "parentId": ""
+}

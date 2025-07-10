@@ -1,0 +1,51 @@
+{
+  "name": "Enter $user details",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Enter $user details",
+    "specific": [],
+    "parameters": [
+      {
+        "parameterId": "user_",
+        "entityTypeId": "user",
+        "suffix": ""
+      }
+    ],
+    "steps": [
+      {
+        "commented": true,
+        "action": "_readFile",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "scripts/sample.txt"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Store",
+        "secondaryParam": {
+          "paramMode": "code",
+          "customValue": "$a"
+        },
+        "specific": []
+      },
+      {
+        "commented": true,
+        "action": "_log",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "$a"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

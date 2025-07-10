@@ -1,0 +1,8 @@
+zip
+excel
+doc
+application/vnd.ms
+application/ms
+application/octet-stream
+application/pdf
+application/x-java-jnlp-file

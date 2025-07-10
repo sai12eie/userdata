@@ -1,0 +1,12 @@
+[body_content]
+js:^\[.*
+js:^\{.*
+js:^var\s.*
+js:^DHTML[.].*
+#download:.*google.*
+
+[content_type]
+js:text/jscript
+js:.*javascript.*
+html:text/html
+htc:text/x-component

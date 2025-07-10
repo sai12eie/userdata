@@ -1,0 +1,9 @@
+.*sahi[.]co[.]in/static/builds/pro/install_sahi_pro_v.*[.]jar
+.*sahipro[.]com/static/builds/pro/install_sahi_pro_v.*[.]jar
+.*xtra2.bin.*
+.*urs[.]microsoft[.]com.*
+.*ctldl[.]windowsupdate[.]com.*
+.*smartscreen[.]microsoft[.]com.*
+.*ieonline[.]microsoft[.]com.*
+.*edge[.]microsoft[.]com.*
+.*edgeassetservice[.]azureedge[.]net.*

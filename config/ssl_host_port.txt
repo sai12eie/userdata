@@ -1,0 +1,2 @@
+.*sahitest[.]com:8000.*
+.*jenkins[.]sahitest[.]com:8443.*

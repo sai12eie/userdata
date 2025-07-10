@@ -1,0 +1,41 @@
+{
+  "name": "Logout",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Logout",
+    "specific": [],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": true,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_link(\"My Account\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": true,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_link(\"Logout\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

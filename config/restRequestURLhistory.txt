@@ -1,0 +1,6 @@
+
+{"httpMethod":"POST","headersString":"Content-Type=multipart%2Fform-data%3B%20boundary%3D--------------------------961142593794573891149144","queryString":"https://dummyjson.com/auth/login","bodyString":"username=emilys&password=emilyspass&expiresInMins=30","timeStamp":1747386792432}
+{"httpMethod":"POST","headersString":"Content-Type=application%2Fjson","queryString":"https://dummyjson.com/auth/login","bodyString":"{\n  \"username\": \"emilys\",\n  \"password\": \"emilyspass\",\n  \"expiresInMins\": 30\n}\n","timeStamp":1747993000573}
+{"httpMethod":"POST","headersString":"Content-Type=multipart%2Fform-data%3B%20boundary%3D--------------------------157033226252270923291518","queryString":"https://dummyjson.com/auth/login","bodyString":"username=emilys&password=emilyspass","timeStamp":1747993359143}
+{"httpMethod":"POST","headersString":"Content-Type=multipart%2Fform-data%3B%20boundary%3D--------------------------917596748853589441247176","queryString":"https://dummyjson.com/products/add","bodyString":"title=pENCIL","timeStamp":1747993662082}
+{"httpMethod":"POST","headersString":"Content-Type=multipart%2Fform-data%3B%20boundary%3D--------------------------917596748853589441247176","queryString":"https://dummyjson.com/products/add","bodyString":"title=pENCIL12","timeStamp":1747993672455}

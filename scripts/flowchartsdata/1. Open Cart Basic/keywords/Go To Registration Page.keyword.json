@@ -1,0 +1,54 @@
+{
+  "name": "Go To Registration Page",
+  "id": "-1",
+  "type": 3,
+  "content": {
+    "isSystemKeyword": false,
+    "title": "Go To Registration Page",
+    "specific": [],
+    "parameters": [],
+    "steps": [
+      {
+        "commented": true,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_link(\"My Account\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": true,
+        "action": "_click",
+        "stepParameters": [
+          {
+            "paramMode": "code",
+            "customValue": "_link(\"Register\")"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      },
+      {
+        "commented": true,
+        "action": "_navigateTo",
+        "stepParameters": [
+          {
+            "paramMode": "string",
+            "customValue": "https://login.salesforce.com/"
+          }
+        ],
+        "stepCategory": "inbuilt",
+        "stepType": "Action",
+        "specific": []
+      }
+    ]
+  },
+  "enabled": false,
+  "parentId": ""
+}

@@ -1,0 +1,14 @@
+.*client_model_v5.pb
+.*[.]ttf.*
+.*[.].woff2.*
+.*[.]woff.*
+.*[.]html.*
+.*signature[.]mozilla[.]org.*
+.*services[.]mozilla[.]com.*
+.*download[.]mozilla[.]org.*
+.*cdn[.]mozilla[.]net.*
+.*ssl[.]gstatic[.]com.*
+.*threatListUpdates.*
+.*chrome-variations\/seed.*
+.*edgedl.*
+.*openh264[.]org.*

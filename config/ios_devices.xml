@@ -1,0 +1,37 @@
+<iOSDevices>
+	<!-- you can get the device info by executing following command
+		"instruments -s devices"
+	-->
+	
+	<!-- iPhone device with 2 capacity-->
+	<!--
+	<iOSDevice> 
+		<name>iPhone</name> 
+		<displayName>iPhone X</displayName>
+		<deviceId>XXXX</deviceId>
+		<deviceId>YYYY</deviceId>
+		<type>simulator</type>
+	</iOSDevice>
+	  -->	  
+	
+	<!-- IPhone device with 5 capacity. -->
+	<!-- 
+	<iOSDevice> 
+		<name>AWS-iPhone</name> 
+		<displayName>iPhone X</displayName>
+		<deviceId aws="true" capacity="5">arn:aws:devicefarm:us-west-2:332167198415:devicepool:ff561b61-79a9-4f40-94c0-9ba200d26d55/efdbbd96-9319-49c0-a17f-faf3afb6eecb</deviceId>
+		<type>device</type>
+	</iOSDevice> 
+	 -->
+	
+	<!-- Mix devices (capacity = specified devices) -->
+	<!-- 
+	<iOSDevice> 
+		<name>Miscellaneous</name>
+		<deviceId aws="true" displayName="iPhone X">arn:aws:devicefarm:us-west-2:332163218415:devicepool:ff561b61-79a9-4f40-94c0-9ba564d26d55/1e007efd-c987-469d-ae84-63b04532a720</deviceId>
+		<deviceId aws="true" displayName="iPhone 8">arn:aws:devicefarm:us-west-2:332163218415:devicepool:ff561b61-79a9-4f40-94c0-9ba564d26d55/1e007efd-c987-469d-ae84-63b04532a721</deviceId>
+		<type>device</type>
+	</iOSDevice> 
+	 -->
+
+</iOSDevices>
